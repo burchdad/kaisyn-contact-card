@@ -1,0 +1,9 @@
+{
+  "name": "quick-contact-card",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "python -m http.server 4173",
+    "check": "node --check script.js && node --check product.js && node --check card.config.js && node --check card.config.example.js"
+  }
+}
