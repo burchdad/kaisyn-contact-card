@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-labelledby="title desc">
+  <title id="title">Pulse Ad Works brand mark</title>
+  <desc id="desc">A futuristic camera lens mark with pulse lines for Pulse Ad Works.</desc>
+  <defs>
+    <radialGradient id="lensGlow" cx="50%" cy="46%" r="54%">
+      <stop offset="0%" stop-color="#f7fbff"/>
+      <stop offset="36%" stop-color="#39d6ff"/>
+      <stop offset="68%" stop-color="#1b5668"/>
+      <stop offset="100%" stop-color="#07131d"/>
+    </radialGradient>
+    <linearGradient id="mintCyan" x1="18%" y1="14%" x2="84%" y2="86%">
+      <stop offset="0%" stop-color="#5dffcb"/>
+      <stop offset="48%" stop-color="#31d3ff"/>
+      <stop offset="100%" stop-color="#ff4f8f"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.19 0 0 0 0 0.84 0 0 0 0 1 0 0 0 .9 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="900" height="900" fill="#07111b"/>
+  <g opacity=".4">
+    <path d="M80 650h120l34-68 54 142 62-372 76 258h102l34-86 46 126h212" fill="none" stroke="#31d3ff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M112 248h160M628 248h160M112 248v160M788 248v160M112 652v-160M112 652h160M788 652v-160M788 652H628" fill="none" stroke="#f7fbff" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  <g filter="url(#glow)">
+    <circle cx="450" cy="450" r="235" fill="none" stroke="url(#mintCyan)" stroke-width="18"/>
+    <circle cx="450" cy="450" r="168" fill="url(#lensGlow)" stroke="#d9f8ff" stroke-width="8"/>
+    <circle cx="405" cy="395" r="48" fill="#ffffff" opacity=".42"/>
+    <path d="M318 288h264l70 86v238H248V374l70-86Z" fill="none" stroke="url(#mintCyan)" stroke-width="22" stroke-linejoin="round"/>
+    <path d="M344 287l34-54h144l34 54" fill="none" stroke="#5dffcb" stroke-width="20" stroke-linecap="round"/>
+  </g>
+  <text x="450" y="780" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="800" fill="#eef8ff" letter-spacing="6">PULSE</text>
+  <text x="450" y="833" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#5dffcb" letter-spacing="10">AD WORKS</text>
+</svg>

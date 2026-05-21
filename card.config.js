@@ -1,37 +1,37 @@
 window.CONTACT_CARD_CONFIG = {
   profile: {
-    name: "Kaisyn Photography",
+    name: "Kaisyn Burch",
     role: "Photographer",
-    positioning: "Portraits / Events / Brand Content",
+    positioning: "Pulse Ad Works / Photography / Brand Content",
     tagline:
-      "I help people, families, and local brands capture clean, memorable images for milestones, moments, and business growth.",
-    email: "hello@example.com",
-    phone: "+19035551234",
-    phoneDisplay: "903-555-1234",
+      "I help people, creators, and local brands capture clean, memorable visuals for moments, campaigns, and content that stands out.",
+    email: "kaisynburch200@gmail.com",
+    phone: "+19037076976",
+    phoneDisplay: "903-707-6976",
     location: "Tyler, Texas",
     website: "https://kaisyn-contact-card.vercel.app",
-    scheduleUrl: "https://example.com/book",
-    photo: "assets/stephen-burch-profile.jpg",
+    scheduleUrl: "https://calendly.com/kaisynburch200/30min",
+    photo: "assets/pulse-ad-works-mark.svg",
     brand: {
-      name: "Kaisyn Photography",
+      name: "Pulse Ad Works",
       url: "https://kaisyn-contact-card.vercel.app",
-      logo: "assets/ghost-ai-solutions-logo.png"
+      logo: "assets/pulse-ad-works-mark.svg"
     },
     socials: [
       {
         label: "Instagram",
-        handle: "@kaisynphotos",
-        url: "https://instagram.com/"
+        handle: "@kaisynburch",
+        url: "https://www.instagram.com/kaisynburch/"
       },
       {
         label: "Facebook",
-        handle: "Kaisyn Photography",
-        url: "https://facebook.com/"
+        handle: "kaisyn.burch",
+        url: "https://www.facebook.com/kaisyn.burch"
       },
       {
-        label: "Portfolio",
-        handle: "Recent work",
-        url: "https://example.com/gallery"
+        label: "Booking",
+        handle: "30 minute call",
+        url: "https://calendly.com/kaisynburch200/30min"
       }
     ],
     apps: [
@@ -74,28 +74,28 @@ window.CONTACT_CARD_CONFIG = {
     ],
     projects: [
       {
-        name: "Portfolio",
-        description: "Recent photography work and featured sessions.",
-        url: "https://example.com"
+        name: "Instagram Portfolio",
+        description: "Recent visuals, edits, and featured photography work.",
+        url: "https://www.instagram.com/kaisynburch/"
       },
       {
         name: "Booking",
         description: "Session inquiries, availability, and project details.",
-        url: "https://example.com/book"
+        url: "https://calendly.com/kaisynburch200/30min"
       }
     ]
   },
   card: {
-    ownerId: "kaisyn_photography",
-    referralCode: "kaisyn-photography",
-    workspaceId: "kaisyn-photography",
-    sourceDetail: "kaisyn_photography_contact_card"
+    ownerId: "kaisyn_burch",
+    referralCode: "kaisyn-burch",
+    workspaceId: "pulse-ad-works",
+    sourceDetail: "pulse_ad_works_contact_card"
   },
   productOffer: {
     baseUrl: "https://stephenburch.app/contact-card-product",
     utmSource: "qr_contact_card",
     utmMedium: "referral_offer",
-    utmCampaign: "kaisyn_photography_card",
-    displayUrl: "stephenburch.app/contact-card-product?ref=kaisyn-photography"
+    utmCampaign: "kaisyn_burch_card",
+    displayUrl: "stephenburch.app/contact-card-product?ref=kaisyn-burch"
   }
 };

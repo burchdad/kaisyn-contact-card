@@ -1,13 +1,13 @@
-# Kaisyn Photography Contact Card
+# Kaisyn Burch Contact Card
 
-This repo is a photography-focused copy of the Smart QR Contact Card Template.
+This repo is a Pulse Ad Works photography-focused copy of the Smart QR Contact Card Template.
 
-Most of Kaisyn's card-specific edits live in `card.config.js`. Replace the placeholder phone, email, booking link, social links, portfolio links, and profile/brand assets before publishing the final QR code.
+Most of Kaisyn's card-specific edits live in `card.config.js`. His phone, email, Facebook, Instagram, and Calendly link are already configured. Replace the temporary Pulse Ad Works mark with a real portrait or portfolio image before publishing the final QR code.
 
 The product referral funnel still points to Stephen's product page with Kaisyn's referral code:
 
 ```txt
-https://stephenburch.app/contact-card-product?ref=kaisyn-photography
+https://stephenburch.app/contact-card-product?ref=kaisyn-burch
 ```
 
 That keeps the card free for Kaisyn while still attributing future product sales back to him.
