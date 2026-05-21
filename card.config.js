@@ -9,12 +9,12 @@ window.CONTACT_CARD_CONFIG = {
     phone: "+19037076976",
     phoneDisplay: "903-707-6976",
     location: "Tyler, Texas",
-    website: "https://kaisyn-contact-card.vercel.app",
+    website: "https://kaisynburch.app",
     scheduleUrl: "https://calendly.com/kaisynburch200/30min",
     photo: "assets/pulse-ad-works-mark.svg",
     brand: {
       name: "Pulse Ad Works",
-      url: "https://kaisyn-contact-card.vercel.app",
+      url: "https://kaisynburch.app",
       logo: "assets/pulse-ad-works-mark.svg"
     },
     socials: [
