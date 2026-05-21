@@ -1,8 +1,22 @@
-# Smart QR Contact Card Template
+# Kaisyn Photography Contact Card
+
+This repo is a photography-focused copy of the Smart QR Contact Card Template.
+
+Most of Kaisyn's card-specific edits live in `card.config.js`. Replace the placeholder phone, email, booking link, social links, portfolio links, and profile/brand assets before publishing the final QR code.
+
+The product referral funnel still points to Stephen's product page with Kaisyn's referral code:
+
+```txt
+https://stephenburch.app/contact-card-product?ref=kaisyn-photography
+```
+
+That keeps the card free for Kaisyn while still attributing future product sales back to him.
+
+## Template Notes
 
 This is a deployable contact-card template for networking, lead capture, referral attribution, and Ghost Lead Command routing.
 
-Stephen Burch's card is configured in `card.config.js`. To create a new card for another person or business, use this repo as a GitHub template and update that config file.
+This card is configured in `card.config.js`. To create another card for a different person or business, use the original template repo and update that config file.
 
 See [TEMPLATE_SETUP.md](TEMPLATE_SETUP.md) for the full clone-and-configure flow.
 
