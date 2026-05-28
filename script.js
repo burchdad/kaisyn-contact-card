@@ -250,7 +250,12 @@ function renderProfile() {
   setText("#tagline", profile.tagline);
   setText("#locationText", profile.location);
   setText("#initialsFallback", initialsFor(profile.name));
-  setText("#contactDialogTitle", `Contact ${profile.name.split(" ")[0] || profile.name}`);
+  setText(
+    "#contactDialogTitle",
+    cardConfig.ownerId === "ghost_contact_card_demo"
+      ? "Contact Stephen"
+      : `Contact ${profile.name.split(" ")[0] || profile.name}`
+  );
 
   $("#emailLink").href = `mailto:${profile.email}`;
   $("#phoneLink").href = `tel:${profile.phone}`;
@@ -284,7 +289,9 @@ function renderProductOffer() {
   setText("#productReferralDisplay", productOffer.displayUrl || productReferralUrl);
   setText(
     "#qrShareCopy",
-    `Scan, save, and jump straight to ${profile.name.split(" ")[0] || profile.name}'s profile.`
+    cardConfig.ownerId === "ghost_contact_card_demo"
+      ? "Scan, save, and open the QR lead card demo."
+      : `Scan, save, and jump straight to ${profile.name.split(" ")[0] || profile.name}'s profile.`
   );
 }
 

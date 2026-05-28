@@ -1,10 +1,10 @@
 window.CONTACT_CARD_CONFIG = {
   profile: {
-    name: "Your Business Card Demo",
-    role: "Local Service Pro",
-    positioning: "QR Contact Card / Lead Capture / Fast Follow-Up",
+    name: "QR Lead Card Demo",
+    role: "Local Business Growth Card",
+    positioning: "QR Contact Card / Calendar Booking / Lead Capture",
     tagline:
-      "This is the card your customer scans after a handshake, quote, event, or referral. It saves your contact, shows your best links, and captures the lead before the moment goes cold.",
+      "A QR-ready card for local businesses that helps customers save your contact, book through your calendar, view your best links, and send an inquiry before the moment goes cold.",
     email: "stephen.burch@ghostai.solutions",
     phone: "+19037074281",
     phoneDisplay: "903-707-4281",
@@ -74,13 +74,13 @@ window.CONTACT_CARD_CONFIG = {
     ],
     projects: [
       {
-        name: "View Product Page",
-        description: "See what is included and start the contact-card intake.",
+        name: "Start the Free Trial",
+        description: "See what is included, choose a plan, and start the setup intake.",
         url: "https://stephenburch.app/contact-card-product"
       },
       {
         name: "Book a Setup Call",
-        description: "Grab a short slot if you want Stephen to set up your card with you.",
+        description: "Grab a short slot if you want help choosing the right setup.",
         url: "https://cal.read.ai/ghost-ai-solutions"
       }
     ]
