@@ -87,7 +87,7 @@ const PRODUCT_STRIPE_PAYMENT_LINKS = {
 };
 ```
 
-Basic includes contact, social, and project information. Premium includes everything in Basic plus the sales/leads funnel.
+Basic includes contact, social, project, and calendar booking information. Premium includes everything in Basic plus the sales/leads funnel.
 Customer-owned leads should be routed with a future `cardOwnerId` or `workspaceId`, not mixed into Stephen's personal `qr_contact_card` source.
 
 ## Referral / Commission Attribution

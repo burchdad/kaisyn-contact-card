@@ -1,101 +1,101 @@
 window.CONTACT_CARD_CONFIG = {
   profile: {
-    name: "Kaisyn Burch",
-    role: "Photographer",
-    positioning: "Pulse Ad Works / Photography / Brand Content",
+    name: "Your Business Card Demo",
+    role: "Local Service Pro",
+    positioning: "QR Contact Card / Lead Capture / Fast Follow-Up",
     tagline:
-      "I help people, creators, and local brands capture clean, memorable visuals for moments, campaigns, and content that stands out.",
-    email: "kaisynburch200@gmail.com",
-    phone: "+19037076976",
-    phoneDisplay: "903-707-6976",
+      "This is the card your customer scans after a handshake, quote, event, or referral. It saves your contact, shows your best links, and captures the lead before the moment goes cold.",
+    email: "stephen.burch@ghostai.solutions",
+    phone: "+19037074281",
+    phoneDisplay: "903-707-4281",
     location: "Tyler, Texas",
-    website: "https://kaisynburch.app",
-    scheduleUrl: "https://calendly.com/kaisynburch200/30min",
-    photo: "assets/pulse-ad-works-mark.svg",
+    website: "https://stephenburch.app",
+    scheduleUrl: "https://cal.read.ai/ghost-ai-solutions",
+    photo: "assets/ghost-ai-solutions-logo.png",
     brand: {
-      name: "Pulse Ad Works",
-      url: "https://kaisynburch.app",
-      logo: "assets/pulse-ad-works-mark.svg"
+      name: "Ghost AI Solutions",
+      url: "https://ghostaisolutions.vercel.app",
+      logo: "assets/ghost-ai-solutions-logo.png"
     },
     socials: [
       {
-        label: "Instagram",
-        handle: "@kaisynburch",
-        url: "https://www.instagram.com/kaisynburch/"
+        label: "Demo Offer",
+        handle: "$49.99/mo or $149.99/mo",
+        url: "https://stephenburch.app/contact-card-product"
       },
       {
-        label: "Facebook",
-        handle: "kaisyn.burch",
-        url: "https://www.facebook.com/kaisyn.burch"
+        label: "Book Setup",
+        handle: "24-hour card build",
+        url: "https://cal.read.ai/ghost-ai-solutions"
       },
       {
-        label: "Booking",
-        handle: "30 minute call",
-        url: "https://calendly.com/kaisynburch200/30min"
+        label: "Text Stephen",
+        handle: "903-707-4281",
+        url: "sms:+19037074281"
       }
     ],
     apps: [
       {
-        name: "Portrait Gallery",
-        type: "Photography work",
-        description: "Featured portraits, family sessions, senior photos, and brand images.",
-        url: "https://example.com/gallery"
+        name: "Save Contact",
+        type: "Phone-ready handoff",
+        description: "Visitors can save your name, phone, email, website, and links directly to their phone.",
+        url: "https://stephenburch.app/contact-card-product"
       },
       {
-        name: "Event Highlights",
-        type: "Event coverage",
-        description: "A quick look at moments captured from local events and celebrations.",
-        url: "https://example.com/events"
+        name: "Lead Capture",
+        type: "Inquiry funnel",
+        description: "A simple form collects name, contact info, and what they need so you can follow up fast.",
+        url: "https://stephenburch.app/contact-card-product#productIntakeForm"
       },
       {
-        name: "Brand Content",
-        type: "Business photography",
-        description: "Photo sets built for websites, social media, ads, and business profiles.",
-        url: "https://example.com/brand"
+        name: "QR Ready",
+        type: "Print and share",
+        description: "Use the link on a QR code, business card, flyer, sign, vehicle, booth, or social bio.",
+        url: "https://stephenburch.app/contact-card-product"
       }
     ],
     services: [
       {
-        name: "Portrait Sessions",
-        description: "Personal, family, senior, and lifestyle portraits with polished digital delivery."
+        name: "Basic Card - $49.99/mo",
+        description: "14-day free trial, then monthly. Contact details, social links, project links, calendar booking link, save-contact button, and QR-ready landing page."
       },
       {
-        name: "Event Photography",
-        description: "Coverage for milestones, local events, celebrations, and business gatherings."
+        name: "Premium Funnel - $149.99/mo",
+        description: "14-day free trial, then monthly. Everything in Basic plus lead intake, click/event tracking, and a cleaner follow-up flow."
       },
       {
-        name: "Brand Content",
-        description: "Professional image sets for websites, social media, ads, and creator profiles."
+        name: "Built in 24 Hours",
+        description: "Send your photo, logo, phone, email, links, and offer. Stephen turns it into a live card."
       },
       {
-        name: "Quick Shoots",
-        description: "Fast, focused sessions for people who need strong photos without a full production."
+        name: "Good Fit",
+        description: "Realtors, photographers, barbers, cleaners, landscapers, trainers, musicians, and contractors."
       }
     ],
     projects: [
       {
-        name: "Instagram Portfolio",
-        description: "Recent visuals, edits, and featured photography work.",
-        url: "https://www.instagram.com/kaisynburch/"
+        name: "View Product Page",
+        description: "See what is included and start the contact-card intake.",
+        url: "https://stephenburch.app/contact-card-product"
       },
       {
-        name: "Booking",
-        description: "Session inquiries, availability, and project details.",
-        url: "https://calendly.com/kaisynburch200/30min"
+        name: "Book a Setup Call",
+        description: "Grab a short slot if you want Stephen to set up your card with you.",
+        url: "https://cal.read.ai/ghost-ai-solutions"
       }
     ]
   },
   card: {
-    ownerId: "kaisyn_burch",
-    referralCode: "kaisyn-burch",
-    workspaceId: "pulse-ad-works",
-    sourceDetail: "pulse_ad_works_contact_card"
+    ownerId: "ghost_contact_card_demo",
+    referralCode: "demo-card",
+    workspaceId: "ghost-ai-solutions",
+    sourceDetail: "contact_card_demo_offer"
   },
   productOffer: {
     baseUrl: "https://stephenburch.app/contact-card-product",
     utmSource: "qr_contact_card",
     utmMedium: "referral_offer",
-    utmCampaign: "kaisyn_burch_card",
-    displayUrl: "stephenburch.app/contact-card-product?ref=kaisyn-burch"
+    utmCampaign: "contact_card_demo_offer",
+    displayUrl: "stephenburch.app/contact-card-product?ref=demo-card"
   }
 };

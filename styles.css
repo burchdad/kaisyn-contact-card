@@ -1081,6 +1081,28 @@ h2 {
   line-height: 1.1;
 }
 
+.price-line {
+  display: inline-flex;
+  width: fit-content;
+  min-height: 36px;
+  align-items: center;
+  border: 1px solid rgba(103, 246, 194, 0.45);
+  border-radius: 7px;
+  padding: 0 12px;
+  color: #061015;
+  background: linear-gradient(135deg, var(--amber), var(--mint));
+  font-size: 1.1rem;
+  font-weight: 950;
+}
+
+.trial-line {
+  width: fit-content;
+  color: var(--mint);
+  font-size: 0.84rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
 .pricing-card p {
   margin-bottom: 0;
   color: var(--muted);

@@ -6,7 +6,12 @@ const PRODUCT_STRIPE_PAYMENT_LINKS = {
 const PRODUCT_PLANS = {
   basic: {
     name: "Basic Contact Card",
-    includes: ["contact_information", "social_information", "project_information"]
+    includes: [
+      "contact_information",
+      "social_information",
+      "project_information",
+      "calendar_booking_integration"
+    ]
   },
   premium: {
     name: "Premium Contact Card + Lead Funnel",
